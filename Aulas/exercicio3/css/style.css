@@ -1,9 +1,17 @@
 body{
     text-align: center;
-    color: #599da1;
+    color: #205d76;
     background-color: #f9f8da;
     font-family: 'openSans-Bold' ,sans-serif;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
 }
+
+h1{
+    font-size: 41px;
+}
+
 
 .header-img{
     width: 500px;
@@ -21,3 +29,21 @@ table{
     margin-right: auto;
 }
 
+.title{
+    margin-left: -45%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.text{
+    color: #eb7b2f;
+    text-align: left;
+    text-decoration: underline;
+}
+
+footer{
+    color: white;
+    background-color: #ffc122;
+    height: 40px;
+    margin-bottom: auto;
+}
