@@ -1,0 +1,23 @@
+body{
+    text-align: center;
+    color: #599da1;
+    background-color: #f9f8da;
+    font-family: 'openSans-Bold' ,sans-serif;
+}
+
+.header-img{
+    width: 500px;
+}
+
+.body-img{
+    /* width: 150px; */
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
