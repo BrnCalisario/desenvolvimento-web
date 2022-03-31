@@ -2,17 +2,25 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-
-/* Geral */
-.corpo{
-    margin: 2% 15%;
+li{
+    list-style-type: none;
+    display: inline-block;
 }
 
+/* Geral */
+.container-clearfix{
+    margin: 2% 15%;
+}
 
 /* Header e Banner */
 nav{
     margin-left: auto;
 }
+
+nav li{
+    padding-left: 20px;
+}
+
 
 header{
     display: flex;
@@ -22,6 +30,13 @@ header{
     position: relative;
     text-align: left;
     color: white;
+    background-image: url("../img/banner.jpg");
+    width: 100%;
+    height: auto;
+    /* max-width: 1128px; */
+    padding-bottom: 450px;
+    margin-bottom: 20px;
+
 }
 
 .caixa{
@@ -29,7 +44,15 @@ header{
     position: absolute;
     top: 10%;
     left: 16;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5); 
+} 
+
+.caixa h1{
+    font-size: 40px;
+}
+
+.caixa p{
+    font-size: 20px;
 }
 
 a{
@@ -44,7 +67,35 @@ a{
 }
 
 /* Sections */
+section{
+    display: inline-flex;
+}
 
-section img{
-    width: 282px;
+section article{
+    width: 100%;
+    height: auto;
+    padding-right: 20px;
+}
+
+section h2{
+    font-size: 20px;
+    font-weight: 200;
+    text-align: left;
+}
+
+section p{
+    font-size: 14px;
+    font-weight: 100;
+    text-align: left;
+}
+
+.imagem-coluna{
+    width: 100%;
+    height: auto;
+}
+
+/* Footer */
+
+footer{
+    margin-top: 5%;
 }
